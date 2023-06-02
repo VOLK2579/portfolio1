@@ -31,6 +31,7 @@ function complete(index) {
       </form>
       <div class="todos">
         {#each todoList as item, index}
+        <div class="todo" class:completed={item.completed}>
           <span class="todo__text">{item.task}</span>
           <div class="todo__buttons">
             <button class="complete" on:click={() => complete(index)}>
@@ -39,9 +40,10 @@ function complete(index) {
             <button class="delete" on:click={() => remove(index)}>
               <Icon name="delete" />
             </button>
-    </div>
+          </div>
+        </div>
         {/each}
-    </div>
+      </div>
 </main>
 <style>
     main {
@@ -132,5 +134,10 @@ button.complete:hover {
 
 .todo.completed button {
   color: silver;
+}
+
+.todos {
+  width: 100%;
+  max-width: 500px;
 }
 </style>

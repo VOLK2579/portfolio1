@@ -1,5 +1,5 @@
 <svelte:head>
-<title>Имя Фамилия</title>
+<title>Илья Липатов</title>
 </svelte:head>
 
 <div class='container'>
@@ -8,17 +8,16 @@
             <div class='container info-container'>
                 <div class='info-text'>
                     <h1>
-                        <p class='animate-text-1'>Lorem ipsum dolor sit,</p>
-                        <p class='text-2'>Lorem ipsum dolor sit amet.</p>
+                        <p class='animate-text-1'>Сайт-визитка</p>
+                        <p class='text-2'>Липатова Ильи</p>
                     </h1>
                 </div>
 <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
-                    ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                    Если вы на этом сайте, то вам явно инетересно узнать что нибудь обо мне, так вот, этот сайт содержит достаточно подробдую информацию обо мне.
                 </h2>
                 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style='color:black' class='scroll-button animate-scroll' tabindex='0'>
-                    <a href='/about'>Click Here</a>
+                    <a href='/about'>Узнать обо мне</a>
                     <div class='arrow'>→</div>
                 </div>
             </div>
